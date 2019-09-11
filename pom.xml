@@ -89,7 +89,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>cucumber_testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -105,7 +105,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>MyProjectName</projectName>  <!-- Replace with project name -->
+							<projectName>CucumberWithTestng</projectName>  <!-- Replace with project name -->
 							<outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
 							<cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
 							<buildNumber>1</buildNumber>
